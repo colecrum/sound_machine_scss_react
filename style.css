@@ -174,3 +174,24 @@ body {
 [type=range]:focus::-ms-fill-upper {
   background: #4f4f4f;
 }
+
+#contact-section {
+  color: white;
+  text-align: center;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 75px;
+  width: 75px;
+  padding: 25px;
+}
+
+#git-logo {
+  height: 75px;
+  width: 125px;
+}
