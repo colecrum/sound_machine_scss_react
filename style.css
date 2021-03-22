@@ -23,13 +23,6 @@ body {
   border: 3px solid magenta;
 }
 
-@media screen and (max-width: 600px) {
-  #drum-machine {
-    width: 90%;
-    height: auto;
-    display: block;
-  }
-}
 .inner-container .padGrid {
   display: flex;
   flex-wrap: wrap;
@@ -96,6 +89,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  #drum-machine {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+
   .inner-container {
     transform: scale(0.8);
     width: 100%;
@@ -111,6 +110,22 @@ body {
   .drum-pad {
     transform: scale(0.9);
     width: 33.3px;
+    height: auto;
+  }
+
+  .controls-container {
+    width: 140px;
+    height: auto;
+    margin: auto;
+  }
+
+  #display {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #drum-machine {
+    width: 90%;
     height: auto;
   }
 
@@ -245,6 +260,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {
     width: 100%;
   }
