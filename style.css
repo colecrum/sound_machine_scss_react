@@ -139,6 +139,22 @@ body {
     width: 50px;
   }
 }
+@media screen and (max-width: 1000px) {
+  #drum-machine {
+    width: 90%;
+    height: auto;
+  }
+
+  .controls-container {
+    width: 140px;
+    height: auto;
+    margin: auto;
+  }
+
+  #display {
+    width: 50px;
+  }
+}
 /* BANK-SLIDER -----------------------------------------*/
 [type=range] {
   -webkit-appearance: none;
@@ -265,6 +281,11 @@ body {
   }
 }
 @media screen and (max-width: 800px) and (orientation: landscape) {
+  .contact-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
   .contact-links {
     width: 100%;
   }
